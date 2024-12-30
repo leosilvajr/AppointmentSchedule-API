@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentSchedule-API", "AppointmentSchedule-API\AppointmentSchedule-API.csproj", "{A385FB3F-3CF3-4BA2-BAE7-47D5FC034540}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentSchedule.Model", "AppointmentSchedule.Model\AppointmentSchedule.Model.csproj", "{04F21B6C-CB77-49AA-9672-089880C2BF05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A385FB3F-3CF3-4BA2-BAE7-47D5FC034540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A385FB3F-3CF3-4BA2-BAE7-47D5FC034540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A385FB3F-3CF3-4BA2-BAE7-47D5FC034540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A385FB3F-3CF3-4BA2-BAE7-47D5FC034540}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04F21B6C-CB77-49AA-9672-089880C2BF05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04F21B6C-CB77-49AA-9672-089880C2BF05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04F21B6C-CB77-49AA-9672-089880C2BF05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04F21B6C-CB77-49AA-9672-089880C2BF05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E7B82C1-E852-45AA-92F7-21AABC07937E}
+	EndGlobalSection
+EndGlobal
