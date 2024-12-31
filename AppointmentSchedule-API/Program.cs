@@ -1,9 +1,16 @@
 using AppointmentSchedule.Infra.Context;
+using AppointmentSchedule.Repository.Repository.Interfaces;
+using AppointmentSchedule.Repository.Repository;
+using AppointmentSchedule.Service.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using AppointmentSchedule.Service.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddScoped<IDoctorRepository, DoctorRepository>();
+builder.Services.AddScoped<IDoctorService, DoctorService>();
+
 
 builder.Services.AddControllers();
 
