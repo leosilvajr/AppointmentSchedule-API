@@ -1,8 +1,9 @@
-﻿using AppointmentSchedule.Model.Model;
-using AppointmentSchedule.Repository.Repository.Interfaces;
-using AppointmentSchedule.Service.Services.Interfaces;
+﻿
+using AppointmentSchedule.Application.Services.Interfaces;
+using AppointmentSchedule.Domain.Model;
+using AppointmentSchedule.Infra.Repository.Interfaces;
 
-namespace AppointmentSchedule.Service.Services
+namespace AppointmentSchedule.Application.Services
 {
     public class DoctorService : IDoctorService
     {

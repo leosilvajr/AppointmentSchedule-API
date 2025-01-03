@@ -1,4 +1,4 @@
-﻿using AppointmentSchedule.Model.Model;
+﻿using AppointmentSchedule.Domain.Model;
 using Microsoft.EntityFrameworkCore;
 
 namespace AppointmentSchedule.Infra.Context

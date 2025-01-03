@@ -1,14 +1,9 @@
-﻿using AppointmentSchedule.Infra.Context;
-using AppointmentSchedule.Model.Model;
-using AppointmentSchedule.Repository.Repository.Interfaces;
+﻿using AppointmentSchedule.Domain.Model;
+using AppointmentSchedule.Infra.Context;
+using AppointmentSchedule.Infra.Repository.Interfaces;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace AppointmentSchedule.Repository.Repository
+namespace AppointmentSchedule.Infra.Repository
 {
     public class DoctorRepository : IDoctorRepository
     {

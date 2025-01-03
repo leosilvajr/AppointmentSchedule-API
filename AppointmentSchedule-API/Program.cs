@@ -1,11 +1,12 @@
 using AppointmentSchedule.Infra.Context;
-using AppointmentSchedule.Repository.Repository.Interfaces;
-using AppointmentSchedule.Repository.Repository;
-using AppointmentSchedule.Service.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
-using AppointmentSchedule.Service.Services;
 using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Rewrite;
+using AppointmentSchedule.Infra.Repository.Interfaces;
+using AppointmentSchedule.Infra.Repository;
+using AppointmentSchedule.Application.Services.Interfaces;
+using AppointmentSchedule.Application.Services;
+
 
 var builder = WebApplication.CreateBuilder(args);
 

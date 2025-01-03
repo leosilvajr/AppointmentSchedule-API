@@ -1,6 +1,8 @@
-﻿using AppointmentSchedule.Model.Model;
+﻿
 
-namespace AppointmentSchedule.Repository.Repository.Interfaces
+using AppointmentSchedule.Domain.Model;
+
+namespace AppointmentSchedule.Infra.Repository.Interfaces
 {
     public interface IDoctorRepository
     {

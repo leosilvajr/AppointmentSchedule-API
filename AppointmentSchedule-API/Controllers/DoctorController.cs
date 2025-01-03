@@ -1,5 +1,5 @@
-﻿using AppointmentSchedule.Model.Model;
-using AppointmentSchedule.Service.Services.Interfaces;
+﻿using AppointmentSchedule.Application.Services.Interfaces;
+using AppointmentSchedule.Domain.Model;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AppointmentSchedule_API.Controllers

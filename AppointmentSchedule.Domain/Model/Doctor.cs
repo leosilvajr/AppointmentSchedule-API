@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace AppointmentSchedule.Model.Model
+namespace AppointmentSchedule.Domain.Model
 {
     public class Doctor
     {

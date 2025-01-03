@@ -7,11 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppointmentSchedule-API", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppointmentSchedule.Infra", "..\AppointmentSchedule.Infra\AppointmentSchedule.Infra.csproj", "{BC1F6006-5FC5-4137-86DF-297043EE414D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppointmentSchedule.Model", "..\AppointmentSchedule.Model\AppointmentSchedule.Model.csproj", "{DEC9D44A-E47F-4394-B945-74DFFA49C751}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentSchedule.Domain", "..\AppointmentSchedule.Domain\AppointmentSchedule.Domain.csproj", "{970921CE-C055-4CF9-9987-2FD38851167D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentSchedule.Service", "..\AppointmentSchedule.Service\AppointmentSchedule.Service.csproj", "{E7DC92B5-15F7-4B3D-BDC2-A053F70CC5AB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentSchedule.Repository", "..\AppointmentSchedule.Repository\AppointmentSchedule.Repository.csproj", "{AD5E051A-8CEB-4C59-A6A2-8E2C3D06EB0B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentSchedule.Application", "..\AppointmentSchedule.Application\AppointmentSchedule.Application.csproj", "{B437609B-0207-4A99-831C-0CF0BF7B6B66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,18 +25,14 @@ Global
 		{BC1F6006-5FC5-4137-86DF-297043EE414D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC1F6006-5FC5-4137-86DF-297043EE414D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC1F6006-5FC5-4137-86DF-297043EE414D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DEC9D44A-E47F-4394-B945-74DFFA49C751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DEC9D44A-E47F-4394-B945-74DFFA49C751}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DEC9D44A-E47F-4394-B945-74DFFA49C751}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DEC9D44A-E47F-4394-B945-74DFFA49C751}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E7DC92B5-15F7-4B3D-BDC2-A053F70CC5AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E7DC92B5-15F7-4B3D-BDC2-A053F70CC5AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E7DC92B5-15F7-4B3D-BDC2-A053F70CC5AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E7DC92B5-15F7-4B3D-BDC2-A053F70CC5AB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AD5E051A-8CEB-4C59-A6A2-8E2C3D06EB0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AD5E051A-8CEB-4C59-A6A2-8E2C3D06EB0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AD5E051A-8CEB-4C59-A6A2-8E2C3D06EB0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AD5E051A-8CEB-4C59-A6A2-8E2C3D06EB0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{970921CE-C055-4CF9-9987-2FD38851167D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{970921CE-C055-4CF9-9987-2FD38851167D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{970921CE-C055-4CF9-9987-2FD38851167D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{970921CE-C055-4CF9-9987-2FD38851167D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B437609B-0207-4A99-831C-0CF0BF7B6B66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B437609B-0207-4A99-831C-0CF0BF7B6B66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B437609B-0207-4A99-831C-0CF0BF7B6B66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B437609B-0207-4A99-831C-0CF0BF7B6B66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

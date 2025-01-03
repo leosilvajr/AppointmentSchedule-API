@@ -1,9 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace AppointmentSchedule.Model.Model
+namespace AppointmentSchedule.Domain.Model
 {
-    public class Appointment
+    public class DoctorService
     {
         [Key]
         public int Id { get; set; }
@@ -19,15 +19,8 @@ namespace AppointmentSchedule.Model.Model
         public Service Service { get; set; }
 
         [Required]
-        [ForeignKey("User")]
-        public int UserId { get; set; }
-        public User User { get; set; }
-
-        [Required]
-        public DateTime BookingDate { get; set; }
-
-        [Required]
-        [StringLength(5)]
-        public string BookingHour { get; set; }
+        [Column(TypeName = "decimal(9,2)")]
+        public decimal Price { get; set; }
     }
+
 }
